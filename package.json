@@ -1,4 +1,17 @@
 {
   "name": "cianh-rollup-dd-trace-repro",
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "dependencies": {
+    "dd-trace": "^5.68.0"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "rollup": "^4.52.4",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
 }
